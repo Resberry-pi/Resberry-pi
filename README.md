@@ -1,54 +1,63 @@
 # Rohan Kumar Singh
-### Embedded Systems Engineer · STM32 Developer · DSP & On-Device AI
+
+**Embedded Systems Engineer · STM32 Developer · DSP & On-Device AI**
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rohankumar17362@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN_HERE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohan-kumar-singh-b31465268)
 
 ---
 
-## About Me
+## About
 
-Entry-level Embedded Systems engineer with hands-on experience building hardware-accelerated AI and DSP systems on STM32 microcontrollers. I focus on pushing computation to the edge — implementing real-time signal processing pipelines and on-device ML inference in bare-metal C.
+I am an Embedded Systems engineer specializing in bare-metal firmware development, real-time digital signal processing, and on-device machine learning on ARM Cortex-M microcontrollers. My work focuses on designing efficient, low-latency pipelines that run entirely on constrained hardware — no operating system, no cloud dependency.
 
-- Currently focused on advanced DSP on STM32, multi-microphone audio processing, and embedded AI (TinyML)
-- Built a Speech-Based Parkinson's Disease Detection System running fully on-chip using NanoEdge AI on STM32F401RE
-- Strong on low-latency, resource-constrained systems with no OS dependency
+My primary research interest lies in deploying AI inference at the edge: extracting meaningful features from raw sensor data and classifying them in real time within the tight memory and compute budgets of microcontrollers.
 
 ---
 
 ## Technical Skills
 
-**Embedded Systems**
-STM32 (F4, F0 Series) · ARM Cortex-M Architecture · Bare Metal Programming · HAL & LL Drivers · FreeRTOS
+**Microcontrollers & Architecture**
+STM32 (F4, F0 Series) · ARM Cortex-M4 / Cortex-M0 · Bare-Metal (Register-Level) Programming · HAL & LL Driver Abstraction · FreeRTOS
 
-**Peripherals & Interfaces**
-ADC · DMA · Timers · Interrupts · UART · SPI · I2C · CMSIS DSP Library · ST-Link · JTAG Debugging
+**Peripherals & Communication Protocols**
+ADC · DMA · Timers · External Interrupts · UART · SPI · I2C · CMSIS-DSP Library · ST-Link · JTAG/SWD Debugging
 
-**Signal Processing & AI**
-Digital Signal Processing · Speech Processing · MFCC Feature Extraction · STFT · NMF · Real-Time Audio · NanoEdge AI (TinyML)
+**Signal Processing & Embedded AI**
+Digital Signal Processing (DSP) · Speech Feature Extraction · MFCC · STFT · Non-Negative Matrix Factorization (NMF) · Real-Time Audio Acquisition · NanoEdge AI Studio · TinyML Inference
 
-**Tools & Software**
-STM32CubeIDE · CubeMX · Cube Programmer · Keil uVision · Eclipse · MATLAB · Python · KiCad · LTSpice · Altium · Vivado · ModelSim · Vitis
+**Development Tools**
+STM32CubeIDE · STM32CubeMX · STM32 Cube Programmer · Keil uVision · Eclipse · MATLAB · Python · KiCad · LTSpice · Altium Designer · Vivado · ModelSim · Vitis
 
 ---
 
 ## Experience
 
-**Research Intern — BIT Mesra** (June 2025 – July 2025)
-- Developed a Speech-Based Parkinson's Disease Detection System on STM32F407 and STM32F030
-- Implemented ADC + DMA-based real-time signal acquisition pipeline
-- Optimized embedded inference pipeline to reduce latency and fit within SRAM constraints
-- Collaborated with research team on validation and accuracy improvements
+**Research Intern — BIT Mesra** `June 2025 – July 2025`
+
+- Designed and implemented a real-time Speech-Based Parkinson's Disease Detection System on STM32F407 and STM32F030 microcontrollers
+- Built an ADC + DMA-driven audio acquisition pipeline for continuous, low-latency signal capture without CPU intervention
+- Developed dual feature extraction pipelines (MFCC and STFT/NMF) and integrated NanoEdge AI for on-chip classification
+- Optimized firmware memory layout and execution flow to meet SRAM and flash constraints on the target hardware
+- Worked with the research team on dataset validation, model accuracy evaluation, and iterative hardware testing
 
 ---
 
 ## Projects
 
-**Speech-Based Parkinson's Disease Detection (STM32)**
-Real-time hardware implementation of a dual-pipeline classifier (MFCC + STFT/NMF) running on STM32F401RE Nucleo using NanoEdge AI — bare-metal C, no OS.
+**Speech-Based Parkinson's Disease Detection — STM32F401RE Nucleo**
+
+A hardware implementation of a speech-based neurological disease classifier running entirely on an STM32F401RE Nucleo board. The system captures audio via ADC with DMA, extracts features through parallel MFCC and STFT/NMF pipelines in bare-metal C, and performs binary classification using a NanoEdge AI model deployed directly on-chip. No OS. No external compute.
+
+`Bare-Metal C` `CMSIS-DSP` `NanoEdge AI` `ADC/DMA` `STM32F401RE`
+
+---
 
 **ARCH — Real-Time Voice Assistant on STM32**
-Speech-based voice assistant designed for low-latency, hardware-accelerated execution on STM32.
+
+A lightweight, hardware-accelerated voice assistant designed for deployment on STM32 microcontrollers. Focused on achieving low-latency speech recognition and response execution within the resource constraints of embedded hardware.
+
+`Embedded AI` `Speech Recognition` `STM32` `Real-Time Systems`
 
 ---
 
@@ -61,4 +70,4 @@ Speech-based voice assistant designed for low-latency, hardware-accelerated exec
 
 ---
 
-*If you find my projects useful, feel free to star and follow.*
+*Open to embedded systems, firmware, and DSP roles. Feel free to explore the repositories or reach out.*
